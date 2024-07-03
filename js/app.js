@@ -15,7 +15,7 @@ console.log(buttonElement)
 // recupero il form 
 const formElement = document.getElementById('form-prezzo')
 console.log(formElement)
-formElement = addEventListener('submit', function (event) {
+formElement.addEventListener('submit', function (event) {
     console.log('submit', event)
 })
 
