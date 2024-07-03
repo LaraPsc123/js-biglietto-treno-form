@@ -16,11 +16,12 @@ console.log(buttonElement)
 let formElement = document.getElementById('form-prezzo')
 console.log(formElement)
 formElement.addEventListener('submit', function (event) {
+    // impedire l'invio del form
+    event.preventDefault()
     console.log('submit', event)
 })
 
-// impedire l'invio del form
-event.prevent
+
 
 // calcolo prezzo per km
 const finalKm = km * priceKm
