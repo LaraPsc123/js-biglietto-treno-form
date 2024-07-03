@@ -1,7 +1,7 @@
 console.log('Calcola il prezzo')
 
-let km = 300 // number
-let age = 30 // number
+let km = inputkmElement // number
+let age = inputetàElement // number
 const priceKm = 0.21 // number
 console.log(km)
 console.log(age)
@@ -11,6 +11,13 @@ console.log("prezzo al km", priceKm)
 // recupero il button
 const buttonElement = document.getElementById('calcola') // string
 console.log(buttonElement)
+
+// recupero l'input km dal form
+const inputkmElement = document.getElementById('km')
+// recupero l'età dal form
+const inputetàElement = document.getElementById('età')
+console.log(inputkmElement)
+console.log(inputetàElement)
 
 // recupero il form 
 let formElement = document.getElementById('form-prezzo') // string
