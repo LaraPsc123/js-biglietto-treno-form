@@ -1,7 +1,7 @@
 console.log('Calcola il prezzo')
 
-let km = inputkmElement // number
-let age = inputetàElement // number
+let km = inputkmElement.value // number
+let age = inputetàElement.value // number
 const priceKm = 0.21 // number
 console.log(km)
 console.log(age)
