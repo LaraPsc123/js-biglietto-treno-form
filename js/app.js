@@ -40,7 +40,7 @@ if (finalKm < 18) {
 let discount40 = finalKm * 0.4 // number
 let disc40 = finalKm - discount40
 // ALTRIMENTI SE è OVER 65
-if (finalKm > 65) {
+else if (finalKm > 65) {
     console.log(disc40)
 }
 
