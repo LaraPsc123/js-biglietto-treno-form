@@ -14,9 +14,9 @@ console.log(buttonElement)
 
 // recupero il form 
 const formElement = document.getElementById('form-prezzo')
-formElement = addEventListener('submit', function) {
+formElement = addEventListener('submit', function () {
     console.log('submit')
-}
+})
 
 // calcolo prezzo per km
 const finalKm = km * priceKm
