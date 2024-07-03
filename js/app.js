@@ -1,7 +1,7 @@
 console.log('Calcola il prezzo')
 
-const km = 300 // number
-const age = 30 // number
+let km = 300 // number
+let age = 30 // number
 const priceKm = 0.21 // number
 console.log(km)
 console.log(age)
@@ -24,7 +24,7 @@ formElement.addEventListener('submit', function (event) {
 
 
 // calcolo prezzo per km
-const finalKm = km * priceKm // number
+let finalKm = km * priceKm // number
 console.log(finalKm)
 
 // sconto del 20%
@@ -32,15 +32,17 @@ let discount = finalKm * 0.2 // number
 let discPrice = finalKm - discount // number
 
 // SE è minorenne
-if (finalKm < 18) {
+if (age < 18) {
     console.log(discPrice)
+}// ALTRIMENTI SE è over 65
+else if (age > 65) {
+    console.log(disc40)
 }
 
 // sconto del 40%
-let discount40 = finalKm * 0.4 // number
-let disc40 = finalKm - discount40
-// ALTRIMENTI SE è OVER 65
-else if (finalKm > 65) {
-    console.log(disc40)
-}
+let discount1 = finalKm * 0.4
+let disc40 = finalKm - discount1
+
+
+
 
